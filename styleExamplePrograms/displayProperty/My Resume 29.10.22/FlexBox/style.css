@@ -1,0 +1,43 @@
+.Food{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: bisque;
+  }
+  .Food> div {
+    background-color: #ec8c8c;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+    font-style: italic;
+  }
+  .Lunch{
+    display: flex;
+    justify-content: center;
+    background-color:  bisque;
+  }
+  
+  .Lunch > div {
+    background-color: #ec8c8c;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .Dinner{
+    display: flex;
+    justify-content: space-between;
+    background-color:  bisque;
+  }
+  
+  .Dinner> div {
+    background-color: #ec8c8c;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }

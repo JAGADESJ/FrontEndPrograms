@@ -1,0 +1,30 @@
+.a{
+    float:right;
+}
+.b{
+    float:left;
+}
+p.c {
+    text-align: center;
+    text-align: justify;
+    word-spacing: 10px;
+}
+p.a {
+    text-align: left;
+    text-align: justify;
+    word-spacing: 15px;
+}
+p.b {
+    text-align: right;
+    text-align: justify;
+    word-spacing: 10px;
+}
+h2.a{
+    text-shadow: 2px 2px 5px red;
+}
+h2.b{
+    text-shadow: 2px 2px 5px rgb(183, 230, 108);
+}
+h2.c{
+    text-shadow: 2px 2px 5px rgb(243, 117, 236);
+}

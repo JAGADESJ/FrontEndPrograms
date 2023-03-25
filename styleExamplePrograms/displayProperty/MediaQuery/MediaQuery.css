@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+.blueBox{
+    Width:95%;
+    height:100px;
+    background-color: rgb(197, 147, 244);
+    box-sizing: border-box;
+    margin:10px
+}
+.orangeBox{
+    width :200px;
+    height:200px;
+    float: left;
+    margin:20px;
+    background-color: rgb(243, 76, 76);
+}
+.secondBlock (max-width:500px){
+    .orangeBox{
+        width:90%;
+    }
+    .secondBlock p{
+        clear:left;
+    }
+}

@@ -1,0 +1,7 @@
+$a:2029;
+@if ($a>100){
+    @debug "a is greater than 100";
+}
+@else{
+    @debug "a is less than 100";
+}

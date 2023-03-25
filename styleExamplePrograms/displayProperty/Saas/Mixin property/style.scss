@@ -1,0 +1,52 @@
+//mixin in used for repeattion of code properties like font, color, size etc.we need to create three box inside a inside box for that we need to  use property; 
+//display:flex,aligh item :centre, justify content :picture-in-picture
+// $variable:20px;
+// @debug "Hello #{$variable}";
+
+
+// @function add($var1:20,$var2:30){
+//     @return $var1+$var2;
+// }
+// @debug"default value =#{add()}";
+// @debug "Value =#{add(2,3)}";
+$a:20;
+// @if ($a>100){
+//     @debug "a is greater than 100";
+// }
+// @else{
+//     @debug "a is less than 100";
+// }
+
+
+
+@mixin boxes{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    width:300px;
+    height:300px;
+    @if ($a<100){
+        @debug "a is greater than 100";
+        background-color: rgb(53, 2, 45);
+    }
+    @else{
+        // @debug "a is less than 100";
+        background-color: rgb(2, 53, 32);
+    }
+   
+    @include boxes;
+    .box2{
+        width:250px;
+        height:200px;
+        background-color:  rgb(126, 3, 107); 
+        @include boxes;
+    .box3{
+        width:100px;
+        height:100px;
+        background-color: rgb(233, 98, 219);
+    }
+
+    }
+}

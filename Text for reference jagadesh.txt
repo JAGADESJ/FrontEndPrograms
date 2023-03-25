@@ -1,0 +1,19 @@
+Here HTML should come
+<head>
+My Resume
+</head>
+<title>
+Jagadesh resume
+</title>
+<body>
+<h2> Name </h2>
+<p> jagadeshwari</p>
+<h2> School</h2>
+<p> Amalorpavam Higher Secondary School </p>
+<a href="https://www.amalorpavamschool.org/" >Click here for school </a>
+<h2> College</h2>
+<p> B. S. Abdur Rahman Crescent Institute Of Science And Technology </p>
+<a href="https://crescent.education/" >Click here for college </a>
+
+</body>
+</html>

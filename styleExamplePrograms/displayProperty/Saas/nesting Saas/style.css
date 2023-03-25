@@ -1,0 +1,29 @@
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+.myDiv h2 {
+  background-color: rgb(3, 40, 52);
+  font-style: italic;
+  color: aliceblue;
+}
+.myDiv p {
+  color: coral;
+  font-style: italic;
+}
+.myDiv button {
+  color: black;
+  background-color: rgb(243, 94, 186);
+  font-size: larger;
+}
+.myDiv button:hover {
+  background-color: rgb(243, 75, 97);
+  font-size: larger;
+  color: rgb(13, 55, 4);
+}
+
+h3 {
+  background-color: rgb(166, 225, 107);
+  font-style: normal;
+}/*# sourceMappingURL=style.css.map */

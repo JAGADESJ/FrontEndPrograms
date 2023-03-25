@@ -1,0 +1,20 @@
+//basic for this will print 1 to 4
+@for $var from 1 to 5{
+    @debug #{$var};
+   }
+//basic for to print 1 including 5
+@for $var from 1 through 5{
+    @debug #{$var};
+   }
+//accessing a list
+$list:10px 20px 30px 40px 50px;
+@each $var in  $list {
+    @debug #{$var};
+}
+//accessing dictionary(i.e)map
+$map:(1:10px,2:20px,3:30px);
+@each $var in $map{
+    @debug $var;
+}
+//to get exact value of key
+@debug map-get($map,2);

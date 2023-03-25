@@ -1,0 +1,22 @@
+@mixin boxes($align,$justify){
+    display:flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+.box1{
+    width:300px;
+    height:300px;
+    background-color: rgb(53, 2, 45);
+    @include boxes(centre,centre);
+    .box2{
+        width:200px;
+        height:200px;
+        background-color:  rgb(126, 3, 107); 
+        @include boxes(centre,centre);
+    .box3{
+        width:100px;
+        height:100px;
+        background-color: rgb(233, 98, 219);
+    }
+}
+}

@@ -1,0 +1,12 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(153, 255, 0);
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: rgb(255, 0, 179);}
+    to {background-color: rgba(255, 255, 0, 0.504);}
+  }

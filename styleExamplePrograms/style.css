@@ -1,0 +1,16 @@
+
+        img{
+            border-radius: 50%;
+            
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+          }
+        p.a {
+            border: none;
+            border-top: 10px dotted black;
+        }
+        

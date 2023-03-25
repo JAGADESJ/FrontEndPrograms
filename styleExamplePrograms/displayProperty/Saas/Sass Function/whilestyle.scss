@@ -1,0 +1,8 @@
+$var:10;
+
+@while($var<100) {
+
+    @debug $var;
+    $var:$var+10;
+
+}

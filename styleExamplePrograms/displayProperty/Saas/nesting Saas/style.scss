@@ -1,0 +1,33 @@
+//nesting is nothing but here we have a div(i.e box) inside it we have some contents like header para changing its font inside that div itself rather tha outside.
+//also applied hover function for button i.e when curser goes close it will change its colur and property
+//&: hover is used instead of writing buutton{hover} again, &:hover is shortv
+
+
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;    
+    text-align: center;
+    h2{
+        background-color:rgb(3, 40, 52) ;
+        font-style: italic;
+        color: aliceblue;
+    }
+    p{
+        color: coral;
+        font-style: italic;
+    }
+    button{
+        color: black;
+        background-color: rgb(243, 94, 186);
+        font-size: larger;
+        &:hover{
+            background-color: rgb(243, 75, 97);
+            font-size: larger;
+            color: rgb(13, 55, 4);
+        }
+    }
+  }
+  h3{
+    background-color:rgb(166, 225, 107) ;
+    font-style: normal;
+  }

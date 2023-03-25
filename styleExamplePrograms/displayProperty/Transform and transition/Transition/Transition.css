@@ -1,0 +1,36 @@
+.Circle{
+    background: rgb(65, 197, 241);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 4s;
+}
+.Circle:hover {
+    width: 300px;
+    height: 300px;
+  }
+ .Triangle{width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid rgb(112, 247, 155);
+    transition: width 2s, height 4s;
+ }
+ .Triangle:hover {
+    width: 300px;
+    height: 300px;
+ }
+ .Eclipse{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
+    background: rgb(20, 32, 3);
+    transition: width 2s, height 4s;
+ }
+ .Eclipse:hover {
+    width: 300px;
+    height: 300px;
+ }

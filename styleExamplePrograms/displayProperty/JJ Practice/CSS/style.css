@@ -1,0 +1,29 @@
+body{
+    background-image: url("./image/cat.jpg");
+}
+
+
+h1{
+    font-style: italic;
+    color:rgb(242, 70, 150);
+    font-size: 30px;
+    display:block;
+}
+.para1{
+    font-style: italic;
+    display:block;
+}
+.BorderColor{
+    background-color: rgb(135, 234, 238);
+}
+h2{
+    font-style: italic;
+    color:rgb(242, 70, 150);
+}
+.para2{
+    font-style: italic;
+    display:inline;
+}
+.Personal{
+    background-color: rgb(202, 149, 253);
+}

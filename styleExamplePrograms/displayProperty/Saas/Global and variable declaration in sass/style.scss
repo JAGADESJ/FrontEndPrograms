@@ -1,0 +1,10 @@
+$a:rgb(6, 71, 49);
+$b: rgb(238, 160, 64);
+h1{
+    background-color: $a;
+    font-style: italic;
+}
+p{
+    background-color: $b;
+    font-style: normal;
+}

@@ -1,0 +1,24 @@
+//use terminal for this activity and after it use this command sass --watch ifstyle.scss ifstyle.css
+//for sass function no need of any html files only sass is enough
+
+//seeting a default value
+@function add($var1:20,$var2:30){
+    @return $var1+$var2;
+}
+@debug"default value =#{add()}";
+//giving variable in down
+@function add($var3,$var4){
+    @return $var3+$var4;
+}
+@debug "Value =#{add(2,3)}";
+//declaring variable before
+@function add(){
+    $var5:20;
+    $var6:30;
+    @return $var5+$var6;
+}
+@debug "Value ="+add();
+//basic printing
+$variable:20px;
+@debug "Hello #{$variable}";
+
